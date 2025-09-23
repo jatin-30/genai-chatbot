@@ -20,7 +20,7 @@ Here’s what the app looks like:
 
 ---
 
-## ✨ Features
+## Features
 
 - **FAQ Pipeline (`faq.py`)**
   - Ingests FAQ data from CSV into **ChromaDB**.
@@ -41,7 +41,7 @@ Here’s what the app looks like:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Datastore**: [ChromaDB](https://www.trychroma.com/)  
 - **LLM Client**: [Groq Cloud](https://groq.com/)  
@@ -54,7 +54,7 @@ Here’s what the app looks like:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 1. faq.py # Handles FAQ ingestion and question answering
 1. sql.py # Handles SQL query generation and human-readable responses 
 1. router.py # Routes queries between FAQ and SQL pipelines 
@@ -98,4 +98,5 @@ GROQ_MODEL = your_groq_model
 ```bash
 streamlit run main.py
 ```
+
 
